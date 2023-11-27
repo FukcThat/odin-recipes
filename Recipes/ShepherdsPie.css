@@ -66,3 +66,34 @@ ol {
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+.homeIcon{
+    width: 75px; /* Set the width of the button */
+    height: 75px; /* Set the height of the button */
+    border: none; /* Remove button border */
+    cursor: pointer;
+    background-color: #183327;
+    color: #D3D2C7 ;
+    transition: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.homeIcon:hover{
+    transform: scale(1.1);
+}
+
+.homeIcon:active{
+    transform: scale(0.9);
+}
+
+#png-button{
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    border: 0px;
+}
+
